@@ -653,14 +653,14 @@ class AutoEncodingGenerativeAdversarialNetwork(AdversarialAutoEncoder, EncodingG
                 running_loss_gx += (loss_dx_g_e_x + loss_dx_g_z) / 2
                 running_loss_gz += (loss_dz_e_g_z + loss_dz_e_x) / 2
 				
-			'''
-			Rx = image reconstruction loss
-			Rz = latent vector reconstruction loss
-			Dx = adversarial loss for images
-			Dz = adversarial loss for latent vectors
-			Gx = generator loss for images
-			Gz = generator loss for latent vectors
-			'''
+	    '''
+	    Rx = image reconstruction loss
+	    Rz = latent vector reconstruction loss
+	    Dx = adversarial loss for images
+	    Dz = adversarial loss for latent vectors
+	    Gx = generator loss for images
+	    Gz = generator loss for latent vectors
+	    '''
             if verbose:
                 t = int(time.time() - start)
                 print(f"{prepend}[{(i+1)*batch_size}/{batch_num*batch_size}]: "
