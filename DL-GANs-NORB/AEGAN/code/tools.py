@@ -85,13 +85,13 @@ def get_smallnorb_data():
                           as_supervised=True,
                       ))
 
-	'''
-	Class 0 - four-legged animals
-	Class 1 - human figures
-	Class 2 - airplanes
-	Class 3 - trucks
-	Class 4 - cars
-	'''
+    '''
+    Class 0 - four-legged animals
+    Class 1 - human figures
+    Class 2 - airplanes
+    Class 3 - trucks
+    Class 4 - cars
+    '''
     class_label_list = [4]   # Use for filtering dataset according to class label     
     if class_label_list:
         
