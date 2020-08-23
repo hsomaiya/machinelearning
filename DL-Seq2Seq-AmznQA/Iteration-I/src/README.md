@@ -5,7 +5,7 @@ Prerequisites:
 
 Steps:
 -
-- Create a directory "checkpoints" and copy the model checkpoint in it.
+- Create a directory "checkpoints" and copy the "attention model with a mask generation layer" checkpoint in it.
 - Copy tokenizer (qa_tokenizer) and embedding matrix (embedding_matrix.npy) in the root directory.
 - Perform model inference using following code:
 
